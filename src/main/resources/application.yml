@@ -9,4 +9,7 @@ spring:
 
 eureka:
   instance:
-    hostname: localhost
+    register-with-eureka: true
+    fetch-registry: true
+    serviceUrl:
+      defaultZone: http://192.168.5.191/eureka  #If the client not registering then change the ip address.
