@@ -9,7 +9,7 @@ spring:
 
 eureka:
   client:
-    register-with-eureka: false 
-    fetch-registry: false
+    register-with-eureka: true 
+    fetch-registry: true
     serviceUrl:
-      defaultZone: http://192.168.5.191:8761/eureka  #If the client not registering then change the ip address.
+      defaultZone: http://192.168.5.191:8761  #If the client not registering then change the ip address.
