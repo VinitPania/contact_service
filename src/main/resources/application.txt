@@ -1,0 +1,9 @@
+spring.application.name=contact-service
+server.port=9002
+eureka.instance.hostname=eureka-server
+eureka.instance.statusPageUrl=http://${eureka.hostname}/info
+eureka.instance.healthCheckUrl=https://${eureka.hostname}/health
+eureka.instance.homePageUrl=http://${eureka.hostname}/
+eureka.client.serviceUrl.defaultZone=http://eureka-server:8761/eureka/
+eureka.client.register-with-eureka=true
+eureka.client.fetch-registery=true
